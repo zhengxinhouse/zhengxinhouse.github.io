@@ -1,0 +1,52 @@
+.header-bar {
+    top: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 75px;
+    background: #161616;
+    z-index: 10;
+}
+
+@media screen and (min-width:993px) {
+    .logo {
+        margin-left: 100px;
+    }
+
+    .list {
+        margin-right: 100px;
+    }
+}
+
+@media screen and (min-width:600px) {
+    .logo-img {
+        max-height: 64px !important;
+    }
+}
+
+.hover-light {
+    background-color: #212121 !important;
+}
+
+.hover-light:hover {
+    background-color: #424242 !important;
+}
+
+.logo-img {
+    max-height: 56px;
+    margin-right: 10px;
+}
+
+.flex-center {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.selected_btn {
+    background-color: white !important;
+
+}
