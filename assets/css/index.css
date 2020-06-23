@@ -15,6 +15,19 @@ body{
     .list {
         margin-right: 100px;
     }
+    .poster{
+        background-image: url("../img/post.jpg");
+        width:100%;
+        height:100px;
+        background-position-y: 30%;
+        background-position-x: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: rebeccapurple;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media screen and (min-width:600px) {
@@ -52,6 +65,7 @@ body{
     width:100%;
     height:90vh;
     background-position-y: 30%;
+    background-position-x: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rebeccapurple;
