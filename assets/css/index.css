@@ -85,8 +85,9 @@ body {
         font-size: 1em !important;
         padding: -0.2rem 2rem 0rem 2rem !important;
     }
+
     .logo {
-        font-size:1.8em !important;
+        font-size: 1.8em !important;
     }
 }
 
@@ -99,8 +100,35 @@ body {
 .more-info {
     margin-top: -38%;
     font-size: 1.5em;
-    font-weight: 300;   
+    font-weight: 300;
     border-radius: 50px !important;
     background-color: #00000000 !important;
     border: rgba(255, 255, 255, 0.466) 2px solid !important;
+}
+
+.short-btn {
+    margin-left: 8px !important;
+    margin-right: 8px !important;
+}
+
+.sqare {
+    width: 40px;
+    height: 40px;
+    transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    /* IE 9 */
+    -moz-transform: rotate(45deg);
+    /* Firefox */
+    -webkit-transform: rotate(45deg);
+    /* Safari 和 Chrome */
+    -o-transform: rotate(45deg);
+    background-color: white;
+    margin-top:-20px;
+}
+
+.trans-area{
+    width:100%;
+    height:0px;
+    display:flex;
+    justify-content: center;
 }
