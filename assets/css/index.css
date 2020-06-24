@@ -102,7 +102,7 @@ body {
     font-size: 1.5em;
     font-weight: 300;
     border-radius: 50px !important;
-    background-color: #00000000 !important;
+    background-color: rgba(0,0,0,0) !important;
     border: rgba(255, 255, 255, 0.466) 2px solid !important;
 }
 
