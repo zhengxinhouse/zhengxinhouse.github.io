@@ -2,6 +2,7 @@ body {
     padding: 0px;
     margin: 0px;
     /* min-width: 600px; */
+    font-family: "微软雅黑";
 }
 
 .header-bar {
@@ -88,6 +89,9 @@ body {
 
     .logo {
         font-size: 1.8em !important;
+    }
+    h3{
+        font-size:1.5rem !important;
     }
 }
 
