@@ -1,0 +1,15 @@
+.body-area {
+    width: 100%;
+}
+
+@media screen and (max-width:600px) {
+    .body-area {
+        min-height: calc(100vh - 126px);
+    }
+}
+
+@media screen and (min-width:600px) {
+    .body-area {
+        min-height: calc(100vh - 134px);
+    }
+}
