@@ -142,7 +142,7 @@ blockquote {
     border-left: 5px solid #42a5f5 !important
 }
 
-.footer {
+.footer-bar {
     height: 70px;
     width: 100%;
     background-color: #212121;
@@ -152,6 +152,7 @@ blockquote {
 }
 
 .powered {
+    margin-top:5px;
     color: rgba(255, 255, 255, 0.8);
     margin-right: 40px;
     font-family: Arial, Helvetica, sans-serif;
@@ -164,4 +165,8 @@ blockquote {
     font-size: 1.4em;
     color: rgba(255, 255, 255, 0.9);
     letter-spacing: 2px;
+}
+
+.btb{
+    border-bottom: rgba(255,255,255,0.8) solid 2px;
 }
