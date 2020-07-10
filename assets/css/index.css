@@ -121,14 +121,15 @@ body {
     margin-right: 8px !important;
 }
 
-.triangle_border_up{
-    width:0;
-    height:0;
-    border-width:0 30px 30px;
-    border-style:solid;
-    border-color:transparent transparent rgb(255, 255, 255);/*透明 透明  灰*/
-    margin:-30px auto 20px auto;
-    position:relative;
+.triangle_border_up {
+    width: 0;
+    height: 0;
+    border-width: 0 30px 30px;
+    border-style: solid;
+    border-color: transparent transparent rgb(255, 255, 255);
+    /*透明 透明  灰*/
+    margin: -30px auto 20px auto;
+    position: relative;
 }
 
 /* .trans-area {
@@ -152,7 +153,7 @@ blockquote {
 }
 
 .powered {
-    margin-top:5px;
+    margin-top: 5px;
     color: rgba(255, 255, 255, 0.8);
     margin-right: 40px;
     font-family: Arial, Helvetica, sans-serif;
@@ -168,6 +169,25 @@ blockquote {
     letter-spacing: 2px;
 }
 
-.btb{
-    border-bottom: rgba(255,255,255,0.8) solid 2px;
+.btb {
+    border-bottom: rgba(255, 255, 255, 0.8) solid 2px;
+}
+
+/* 滚动条 */
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #666;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-button {
+    height: 0px;
 }
