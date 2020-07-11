@@ -20,7 +20,7 @@
                 <img src="https://s1.ax1x.com/2020/07/10/UKMvut.png" class="logo-img circle">
                 正心书院
             </a>
-            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down list">
                 <li><a href="./index.html" class="btn z-depth-0 hover-light waves-effect waves-light short-btn">主页</a>
                 </li>
@@ -33,6 +33,28 @@
             </ul>
         </div>
     </nav>
+    <ul id="slide-out" class="side-nav">
+        <li>
+            <div class="userView">
+                <div class="background">
+                    <img width="350" src="https://s1.ax1x.com/2020/07/11/U13git.jpg">
+                </div>
+                <a href="#!user"><img style="background-color: black;padding:5px;" class="circle"
+                        src="https://s1.ax1x.com/2020/07/10/UKMvut.png"></a>
+                <a href="#!name"><span class="white-text name" style="font-weight: 800;margin-left: 3px;">正心书院</span></a>
+                <a href="#!email"><span class="white-text email"></span></a>
+            </div>
+        </li>
+        <li><a href="./index.html" class="waves-effect"><i class="material-icons">home</i>主页</a></li>
+        <!-- <li><a href="#!">第二链接</a></li>
+        <li>
+            <div class="divider"></div>
+        </li> -->
+        <li><a class="subheader">其他信息</a></li>
+        <li><a href="#!" class="waves-effect"><i class="material-icons">query_builder</i>赛事与成就</a></li>
+        <li><a href="#!" class="waves-effect"><i class="material-icons">library_books</i>新闻推送</a></li>
+        <li><a href="#!" class="waves-effect"><i class="material-icons">info_outline</i>关于我们</a></li>
+    </ul>
     <div class="body-area grey lighten-3">
         <div class="container">
             <h3 style="text-align: center;">关于我们</h3>
@@ -61,9 +83,9 @@
                         href="https://web.yammer.com/main/users/eyJfdHlwZSI6IlVzZXIiLCJpZCI6IjEzNTI4NDAzOTY4MCJ9">
                         Yammer:正心书院（抄送或私信）
                     </a>
-                    <a class="bname" target="_blank" href="mailto:zhengxinhouse@i.pkuschool.edu.cn">
-                        邮件: <span class="s-text">zhengxinhouse@i.pkuschool.edu.cn</span>
-                    </a>
+                    <div class="bname waves-ripple" onclick="copyHint()" id="mailAddr" data-clipboard-text="zhengxinhouse@i.pkuschool.edu.cn">
+                        邮件: <span class="s-text">点我复制到剪贴板</span>
+                    </div>
                     <p class="flow-text">我们会尽快回复您ヾ(≧▽≦*)o</p>
                 </div>
                 <div class="contact-card">
@@ -96,7 +118,9 @@
         </a>
     </div>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script>
 <script type="text/javascript" src="./assets/js/jquery-2.1.1.min.js"></script>
 <script src="./assets/js/materialize.min.js"></script>
+<script src="./assets/js/contact.js"></script>
 
 </html>
