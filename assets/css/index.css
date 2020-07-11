@@ -158,8 +158,6 @@ blockquote {
     margin-right: 40px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2em;
-    cursor: pointer;
-}
 
 .about {
     margin-left: 40px;
@@ -169,9 +167,6 @@ blockquote {
     letter-spacing: 2px;
 }
 
-.btb {
-    border-bottom: rgba(255, 255, 255, 0.8) solid 2px;
-}
 
 /* 滚动条 */
 
