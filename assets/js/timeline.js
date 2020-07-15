@@ -31,3 +31,7 @@
     window.addEventListener("scroll", callbackFunc);
 
 })();
+
+$(document).ready(function () {
+    $(".button-collapse").sideNav();
+});
