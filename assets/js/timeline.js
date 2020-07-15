@@ -31,7 +31,4 @@
     window.addEventListener("scroll", callbackFunc);
 
 })();
-//
-$(document).ready(function () {
-    $(".button-collapse").sideNav();
-});
+// 草 Bug了
