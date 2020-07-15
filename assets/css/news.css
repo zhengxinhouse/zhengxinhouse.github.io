@@ -63,6 +63,13 @@
     z-index: 5;
 }
 
+@media screen and(max-width:850px)
+{
+    .h3{
+        font-size:3rem !important;
+    }
+}
+
 .card-content{
     max-height: 150px;
     min-height: 80px;
