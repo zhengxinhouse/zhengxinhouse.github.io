@@ -1,6 +1,7 @@
 .body-area {
     width: 100%;
     padding: 10px 40px;
+
 }
 
 @media screen and (max-width:600px) {
@@ -66,7 +67,7 @@
     transition: box-shadow ease 0.2s;
 }
 
-.s-text{
+.s-text {
     font-size: 0.9em !important;
 }
 
@@ -97,7 +98,7 @@
     filter: invert(1);
 }
 
-.simple-box{
+.simple-box {
     margin: 0px 0 6px;
     background-color: #f2f2f2;
     padding: 8px 12px;
@@ -108,22 +109,31 @@
     align-items: center;
 }
 
-.qr-code{
+.qr-code {
     height: 120px;
     width: 120px;
     border-radius: 3px;
-    transition: transform .25s, box-shadow .2s,margin .25s;
+    transition: transform .25s, box-shadow .2s, margin .25s;
     transform-origin: top left;
 }
 
-.qr-code:hover{
-    transform:scale(2,2);
-    margin-left:-120px;
-    margin-right:120px;
-    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
+.qr-code:hover {
+    transform: scale(2, 2);
+    margin-left: -120px;
+    margin-right: 120px;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
 }
 
-.t3{
+@media screen and (max-width:600px) {
+    .qr-code:hover {
+        transform: scale(2, 2);
+        margin-left: 0px;
+        margin-right: 0px;
+        box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+    }
+}
+
+.t3 {
     display: block;
     font-size: 1.17em;
     margin-block-start: 1em;
