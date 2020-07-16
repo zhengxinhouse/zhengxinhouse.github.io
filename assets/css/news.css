@@ -7,7 +7,6 @@
 
 @media screen and (max-width:600px) {
     .body-area {
-        padding: 30px 0px;
         min-height: calc(100vh - 126px);
     }
 }
