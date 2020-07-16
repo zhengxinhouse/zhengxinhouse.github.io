@@ -72,16 +72,17 @@ permalink: /news.html
         <div class="container Ncard-list">
 
             {%for article in site.data.article %}
-            <div class="Ncard"
-                onclick="window.open('{{article.link}}')">
+            <div class="Ncard" onclick="window.open('{{article.link}}')">
                 <div class="card-poster" style="background-image:url({{article.poster}})"></div>
-                <div class="card-title">{{article.title}}</div>
-                <div class="card-info">{{article.time}} ·{%for tag in article.tags%} {{tag}}{%endfor%}
+                <div class="card-body">
+                    <div class="card-title">{{article.title}}</div>
+                    <div class="card-info">{{article.time}} ·{%for tag in article.tags%} {{tag}}{%endfor%}
+                    </div>
+                    <div class="card-content">
+                        {{article.description}}
+                    </div>
+                    <div class="card-mask"></div>
                 </div>
-                <div class="card-content">
-                    {{article.description}}
-                </div>
-                <div class="card-mask"></div>
             </div>
             {%endfor%}
 
