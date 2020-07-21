@@ -131,4 +131,8 @@
     .card-info{
         font-size:8px;
     }
+    .card-mask {
+        left: 0;
+        width: 100%;
+    }
 }
