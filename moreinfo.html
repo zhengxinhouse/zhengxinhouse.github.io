@@ -1,6 +1,6 @@
 ---
 layout: showcase
-permalink: /news.html
+permalink: /moreinfo.html
 ---
 
 <!DOCTYPE html>
@@ -66,12 +66,12 @@ permalink: /news.html
 
 
     <div class="body-area">
-        <div class="container title-area">
-            <h3 style="text-align: center;" class="title-main">新闻推送</h3>
+        <div class="container title-area" hidden>
+            <h3 style="text-align: center;" class="title-main">敬请期待 . . .</h3>
         </div>
-        <div class="container Ncard-list">
+        <div class="container Ncard-list" hidden>
 
-            {%for article in site.data.moreinfo_article %}
+            {%for article in site.data.Marticle %}
             <div class="Ncard" onclick="window.open('{{article.link}}')">
                 <div class="card-poster" style="background-image:url({{article.poster}})"></div>
                 <div class="card-body">
@@ -100,5 +100,19 @@ permalink: /news.html
 <script type="text/javascript" src="./assets/js/jquery-2.1.1.min.js"></script>
 <script src="./assets/js/init.js"></script>
 <script src="./assets/js/materialize.min.js"></script>
+<script>
+    var articlelist=JSON.parse('{{site.data.Marticle | jsonify }}');
+    console.log(articlelist);
+    window.onload=()=>{
+        if(articlelist.length==0)
+        {
+            document.querySelector('.title-area').removeAttribute('hidden');
+        }
+        else
+        {
+            document.querySelector('.Ncard-list').removeAttribute('hidden');
+        }
+    }
+</script>
 
 </html>
