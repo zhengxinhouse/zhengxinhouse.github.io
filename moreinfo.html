@@ -69,7 +69,7 @@ permalink: /moreinfo.html
         <div class="container title-area" hidden>
             <h3 style="text-align: center;" class="title-main">敬请期待 . . .</h3>
         </div>
-        <div class="container Ncard-list" hidden>
+        <div class="container Ncard-list">
 
             {%for article in site.data.Marticle %}
             <div class="Ncard" onclick="window.open('{{article.link}}')">
@@ -107,6 +107,7 @@ permalink: /moreinfo.html
         if(articlelist.length==0)
         {
             document.querySelector('.title-area').removeAttribute('hidden');
+            document.querySelector('.Ncard-list').setAttribute('hidden','');
         }
         else
         {
