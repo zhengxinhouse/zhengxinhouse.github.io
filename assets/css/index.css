@@ -187,3 +187,8 @@ blockquote {
 ::-webkit-scrollbar-button {
     height: 0px;
 }
+
+.BBarea{
+    color:#02bde4;
+    font-weight: 600;
+}
