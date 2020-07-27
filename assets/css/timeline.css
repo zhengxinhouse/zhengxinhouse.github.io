@@ -230,3 +230,15 @@ time {
         border-color: transparent #5aa7ba transparent transparent;
     }
 }
+
+.bottom-info {
+    color: hsla(220, 4%, 58%, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eceff1;
+    font-family: "微软雅黑";
+    padding-bottom: 10px;
+    font-size:1.2em;
+    letter-spacing: 4px;
+}
