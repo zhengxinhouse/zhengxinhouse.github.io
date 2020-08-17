@@ -10,16 +10,6 @@
         "link": "https://mp.weixin.qq.com/s/nTtasvEZUbQ07k0TkeuBvA"
     },
     {
-        "poster": "https://s1.ax1x.com/2020/07/27/aFNKOJ.jpg",
-        "title": "欢迎来到正心 | 体育赛事篇",
-        "time": "2020年08月05日",
-        "tags": [
-            "招新推文"
-        ],
-        "description": "关于四大赛事的一切",
-        "link": "https://mp.weixin.qq.com/s/GJ_lYKSAGrByOD-e7j3FGg"
-    },
-    {
         "poster": "https://s1.ax1x.com/2020/08/09/a7RQeJ.jpg",
         "title": "欢迎来到正心 | 活动",
         "time": "2020年08月09日",
@@ -51,12 +41,22 @@
     },
     {
         "poster": "https://s1.ax1x.com/2020/07/27/aFNKOJ.jpg",
+        "title": "欢迎来到正心 | 体育赛事篇",
+        "time": "2020年08月05日",
+        "tags": [
+            "招新推文"
+        ],
+        "description": "关于足球杯和篮球杯的一切",
+        "link": "https://mp.weixin.qq.com/s/GJ_lYKSAGrByOD-e7j3FGg"
+    },
+    {
+        "poster": "https://s1.ax1x.com/2020/07/27/aFNKOJ.jpg",
         "title": "欢迎来到正心 | 历史文化",
         "time": "2020年08月15日",
         "tags": [
             "招新推文"
         ],
-        "description": "在正心书院，书院事务由议事会与各个项目组负责。",
+        "description": "从每个正心人从认识正心开始，这句话就一直贯穿着我们的生活。正心书院原是北大附中的四单元，也是现在的正心书院。于是在这里，我们的故事开始啦。",
         "link": "https://mp.weixin.qq.com/s/34ZwpDP2HYaQPXT64QEhMg"
     },
     {
@@ -66,7 +66,7 @@
         "tags": [
             "招新推文"
         ],
-        "description": "在正心书院，书院事务由议事会与各个项目组负责。",
+        "description": "刚刚来到北大附中高中部的你，或许对未来的校园生活和学习充满了疑问。学长学姐当年也和你一样，小小的脑袋里充满了大大的问号。",
         "link": "https://mp.weixin.qq.com/s/D1yyFkZ5IZ9_9Ju6qnNeEA"
     }
 ]
